@@ -1,7 +1,6 @@
 import os
 import sys
 
-import version
 from setuptools import setup, find_packages
 
 _here = os.path.dirname(__file__)
