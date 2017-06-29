@@ -16,7 +16,7 @@ if sys.version_info[0] == 2:
     install_requires.append('mock')
 
 setup(name="mp.importer",
-      version=version.getVersion(),
+      version='0.9',
       description="Utilities to ease imports of content to MetroPublisher.",
       packages=find_packages(),
       long_description=README,
